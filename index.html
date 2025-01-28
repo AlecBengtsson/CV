@@ -10,7 +10,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Lightbox CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
 	</head>
+	
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -74,31 +77,43 @@
 								</div>
 							</section>
 
-						<!-- Three -->
+													<!-- Three -->
 							<section id="three">
 								<div class="container">
 									<h3>Mina prestationer</h3>
 									<p>Här är några av de projekt och prestationer jag är stolt över:</p>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="Projekt 1" /></a>
+											<!-- Första projektet -->
+											<a href="images/pic01_large.jpg" data-lightbox="projekt" class="image">
+												<img src="images/pic01.jpg" alt="Projekt 1" />
+											</a>
 											<div class="inner">
-												<h4>Miljöövervakning i stor skala</h4>
-												<p>Jag ledde ett projekt för att övervaka och analysera miljöpåverkan i en stor region, vilket resulterade i förbättrade miljöstrategier.</p>
+												<h4>Linnéuniversitetet - Miljöanalytiker</h4>
+												<p>Min utbildning har omfattat en bred palett av ämnen, exempelvis i miljörätt fick jag lära mig om miljöbalken, som är ryggraden i svensk miljölagstiftning...</p>
+												<p>Skills: Environmental Impact Assessment · Life Cycle Assessment · Law · Critical Thinking · Environmental Toxicology</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="Projekt 2" /></a>
+											<!-- Andra projektet -->
+											<a href="images/pic02_large.jpg" data-lightbox="projekt" class="image">
+												<img src="images/pic02.jpg" alt="Projekt 2" />
+											</a>
 											<div class="inner">
-												<h4>Hållbarhetsrapportering</h4>
-												<p>Utvecklade en metod för hållbarhetsrapportering som nu används av flera företag i branschen.</p>
+												<h4>Lunds Universitet</h4>
+												<p>Jag testade att studera 200% under en termin för att se om det var något för mig...</p>
+												<p>Skills: Data Collection · Microsoft Excel · Statistical Data Analysis · Fire Management · Mathematics</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="Projekt 3" /></a>
+											<!-- Tredje projektet -->
+											<a href="images/pic03_large.jpg" data-lightbox="projekt" class="image">
+												<img src="images/pic03.jpg" alt="Projekt 3" />
+											</a>
 											<div class="inner">
 												<h4>Föreläsningar och utbildning</h4>
-												<p>Har hållit flera föreläsningar och utbildningar om miljöanalys och hållbar utveckling.</p>
+												<p>I Analys A fördjupade jag mina kunskaper inom differentialekvationer och integralkalkyl...</p>
+												<p>Skills: Data Analytics · Problem Solving · Mathematics · Revit · Computer-Aided Design (CAD)</p>
 											</div>
 										</article>
 									</div>
@@ -170,6 +185,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<!-- Lightbox JS -->
+			<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
 	</body>
 </html>
